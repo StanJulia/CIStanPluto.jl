@@ -1,5 +1,12 @@
 # CIStanPluto
 
+![Lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)<!--
+![Lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)
+![Lifecycle](https://img.shields.io/badge/lifecycle-stable-green.svg)
+![Lifecycle](https://img.shields.io/badge/lifecycle-retired-orange.svg)
+![Lifecycle](https://img.shields.io/badge/lifecycle-archived-red.svg)
+![Lifecycle](https://img.shields.io/badge/lifecycle-dormant-blue.svg) -->
+
 This code base is using the Julia Language and [DrWatson](https://juliadynamics.github.io/DrWatson.jl/stable/)
 to make a reproducible scientific project named
 > CIStanPluto
