@@ -1,4 +1,4 @@
-# CIStanPluto
+# CIStanPluto.jl
 
 ![Lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)<!--
 ![Lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)
@@ -7,29 +7,43 @@
 ![Lifecycle](https://img.shields.io/badge/lifecycle-archived-red.svg)
 ![Lifecycle](https://img.shields.io/badge/lifecycle-dormant-blue.svg) -->
 
-# CIStanPluto.jl
-
 ## Purpose
 
 This project will contain (work in early stages of preogress!!!) a set of Pluto notebooks that contain Julia versions of the examples in the book ["CausalInference: The mixtape" by Scott Cunningham](https://www.scunning.com/mixtape.html).
 
 These notebooks are intended to be used in conjunction with above book.
 
-It is authored by Rob J Goedman. I am attempting to base it on {CausalInference.jl](https://github.com/mschauer/CausalInference.jl)
+It is authored by Rob J Goedman. I am attempting to base it on [CausalInference.jl](https://github.com/mschauer/CausalInference.jl)
+
+## Prerequisites
+
+To complete below steps and run the notebooks you need:
+
+1. A functioning [cmdstan](https://mc-stan.org/users/interfaces/cmdstan.html).
+2. A functioning [Julia](https://julialang.org/downloads/).
+3. Access to some development tools, e.g. git and a C++ toolchain.
+4. A Julia base environment containing `Pkg`, `DrWatson`, `Pluto` and `PlutoUI`.
+
+## Setup the Pluto based CIStanPluto notebooks
+
+To (locally) use this project, do the following:
+
+Select and download CIStanPluto.jl from [StanJulia on Github](https://github.com/StanJulia/) .e.g.:
+```Julia
+$ git clone https://github.com/StanJulia/CIStanPluto.jl # Or the Github site options.
+$ cd CIStanPluto.jl # Move to the downloaded directory
+$ julia --project=CIStanPluto # Available from Julia-1.7 onwards.
+(ROSStanPluto) pkg> activate .
+```
+
+Still in the Julia REPL, start a Pluto notebook server.
+```Julia
+julia> using Pluto
+julia> Pluto.run()
+```
+
+A Pluto page should open in a browser. See [this page](https://www.juliafordatascience.com/first-steps-5-pluto/) for a quick Pluto introduction.
 
 ## Usage
 
-To (locally) reproduce this project, do the following:
-
-0. Download this code base. Notice that raw data are typically not included in the
-   git-history and may need to be downloaded independently.
-1. Open a Julia console and do:
-   ```
-   julia> using Pkg
-   julia> Pkg.add("DrWatson") # install globally, for using `quickactivate`
-   julia> Pkg.activate("path/to/this/project")
-   julia> Pkg.instantiate()
-   ```
-
-This will install all necessary packages for you to be able to run the scripts and
-everything should work out of the box, including correctly finding local paths.
+Select a notebook in the `open a file` entry box, e.g. type `./`.
