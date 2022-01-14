@@ -7,11 +7,17 @@
 ![Lifecycle](https://img.shields.io/badge/lifecycle-archived-red.svg)
 ![Lifecycle](https://img.shields.io/badge/lifecycle-dormant-blue.svg) -->
 
-This code base is using the Julia Language and [DrWatson](https://juliadynamics.github.io/DrWatson.jl/stable/)
-to make a reproducible scientific project named
-> CIStanPluto
+# CIStanPluto.jl
 
-It is authored by Rob J Goedman.
+## Purpose
+
+This project will contain (work in early stages of preogress!!!) a set of Pluto notebooks that contain Julia versions of the examples in the book ["CausalInference: The mixtape" by Scott Cunningham](https://www.scunning.com/mixtape.html).
+
+These notebooks are intended to be used in conjunction with above book.
+
+It is authored by Rob J Goedman. I am attempting to base it on {CausalInference.jl](https://github.com/mschauer/CausalInference.jl)
+
+## Usage
 
 To (locally) reproduce this project, do the following:
 
