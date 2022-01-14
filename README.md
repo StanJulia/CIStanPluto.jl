@@ -33,7 +33,8 @@ Select and download CIStanPluto.jl from [StanJulia on Github](https://github.com
 $ git clone https://github.com/StanJulia/CIStanPluto.jl # Or the Github site options.
 $ cd CIStanPluto.jl # Move to the downloaded directory
 $ julia --project=CIStanPluto # Available from Julia-1.7 onwards.
-(ROSStanPluto) pkg> activate .
+(CIStanPluto) pkg> activate .
+(CIStanPluto) pkg> instantiate     # Only the first time
 ```
 
 Still in the Julia REPL, start a Pluto notebook server.
