@@ -28,9 +28,10 @@ To complete below steps and run the notebooks you need:
 
 To (locally) use this project, do the following:
 
-Select and download CIStanPluto.jl from [StanJulia on Github](https://github.com/StanJulia/) .e.g.:
+Select and download CIStanPluto.jl from [StanJulia on Github](https://github.com/StanJulia/), e.g. to clone it to the `~/.julia/dev/CIStanPluto` directory:
 ```Julia
-$ git clone https://github.com/StanJulia/CIStanPluto.jl # Or the Github site options.
+# Use git clone or the Github site options.
+$ git clone https://github.com/StanJulia/CIStanPluto.jl ~/.julia/dev/CIStanPluto
 $ cd CIStanPluto.jl # Move to the downloaded directory
 $ julia --project=CIStanPluto # Available from Julia-1.7 onwards.
 (CIStanPluto) pkg> activate .
@@ -48,3 +49,5 @@ A Pluto page should open in a browser. See [this page](https://www.juliafordatas
 ## Usage
 
 Select a notebook in the `open a file` entry box, e.g. type `./`.
+
+A few more details can be found in [TIPS.jl](https://github.com/StanJulia/CIStanPluto.jl/blob/master/TIPS.md).

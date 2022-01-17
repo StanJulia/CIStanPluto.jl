@@ -8,7 +8,7 @@ using CSV
 
 ProjDir = @__DIR__
 
-CI_dir = "/Users/rob/Projects/R/mixtape"
+CI_dir = ENV["JULIA_MIXTAPE_HOME"]
 
 function is_dta(filename::AbstractString)
     if length(filename) > 5
