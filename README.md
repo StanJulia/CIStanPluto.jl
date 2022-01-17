@@ -21,8 +21,10 @@ To complete below steps and run the notebooks you need:
 
 1. A functioning [cmdstan](https://mc-stan.org/users/interfaces/cmdstan.html).
 2. A functioning [Julia](https://julialang.org/downloads/).
-3. Access to some development tools, e.g. git and a C++ toolchain.
-4. A Julia base environment containing `Pkg`, `DrWatson`, `Pluto` and `PlutoUI`.
+3. A downloaded version of [mixtape](https://github.com/JustinMShea/wooldridge).
+4. Setup an environment variable JULIA_MIXTAPE_HOME pointing to the mixtape directory.
+5. Access to some development tools, e.g. git and a C++ toolchain.
+6. A Julia base environment containing `Pkg`, `DrWatson`, `Pluto` and `PlutoUI`.
 
 ## Setup the Pluto based CIStanPluto notebooks
 
