@@ -9,7 +9,7 @@
 
 ## Purpose
 
-This project will contain (work in early stages of preogress!!!) a set of Pluto notebooks that contain Julia versions of the examples in the book ["CausalInference: The mixtape" by Scott Cunningham](https://www.scunning.com/mixtape.html).
+This project will contain (work in very early stages of progress!!!) a set of Pluto notebooks that contain Julia versions of the examples in the book ["Causal Inference: The mixtape" by Scott Cunningham](https://www.scunning.com/mixtape.html).
 
 These notebooks are intended to be used in conjunction with above book.
 
@@ -21,7 +21,7 @@ To complete below steps and run the notebooks you need:
 
 1. A functioning [cmdstan](https://mc-stan.org/users/interfaces/cmdstan.html).
 2. A functioning [Julia](https://julialang.org/downloads/).
-3. A downloaded version of [mixtape](https://github.com/JustinMShea/wooldridge).
+3. A downloaded version of [mixtape](https://github.com/scunning1975/mixtape).
 4. Setup an environment variable JULIA_MIXTAPE_HOME pointing to the mixtape directory.
 5. Access to some development tools, e.g. git and a C++ toolchain.
 6. A Julia base environment containing `Pkg`, `DrWatson`, `Pluto` and `PlutoUI`.
